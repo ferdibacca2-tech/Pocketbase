@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mappa Meteo</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div id="stats">
+      <div><b>Numero punti:</b> <span id="s_count">0</span></div>
+      <div><b>Temperatura media:</b> <span id="s_avg">–</span></div>
+      <div><b>T.max:</b> <span id="s_max">–</span></div>
+      <div><b>T.min:</b> <span id="s_min">–</span></div>
+    </div>
+
+    <input type="search" id="search" placeholder="Cerca..." onkeyup="search()">
+
+    <div id="corpo">
+      <p id="media"></p>
+      <div id="map"></div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
