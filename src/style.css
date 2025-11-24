@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: 500px;
+  width: 800px;
+  position: fixed;
+  top: 120px;
+  right: 10px;
+}
+
+#corpo {
+  margin-top: 120px;
+}
+
+#media {
+  margin-left: 20px;
+  width: 400px;
+}
+
+#stats {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  font-size: 14px;
+}
+
+#search {
+  position: fixed;
+  top: 70px;
+  left: 1000px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
